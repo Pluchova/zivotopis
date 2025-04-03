@@ -33,11 +33,12 @@ img {
     overflow:auto;
 }
 header,section,footer{
-    background-color:#D4D2D2;
+    background-color: #F2EFEF;
     max-width: 80%;
     border-radius: 12px;
     padding: 30px 50px;
     margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .kurzy {
     text-align: center;
@@ -45,26 +46,23 @@ header,section,footer{
 
 .certifikaty {
     display: flex;
-    flex-wrap: wrap; /* Obrázky se zalomí, pokud se nevejdou */
+    flex-wrap: wrap; 
     justify-content: center;
-    gap: 20px; /* Rozestup mezi obrázky */
+    gap: 20px; 
 }
 
 .certifikaty a {
     text-decoration: none;
     color: black;
     text-align: center;
-    width: 45%; /* Zajistí 2 obrázky vedle sebe */
+    width: 45%; 
 }
 
 .certifikaty img {
-    width: 100%; /* Obrázek se přizpůsobí rodiči */
+    width: 100%; 
     max-width: 300px;
     border: 2px solid #756158;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
-.certifikaty img:hover {
-    transform: scale(1.1); /* Efekt zvětšení */
-}
