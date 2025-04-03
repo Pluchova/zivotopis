@@ -63,6 +63,5 @@ header,section,footer{
     max-width: 300px;
     border: 2px solid #756158;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
 }
 
